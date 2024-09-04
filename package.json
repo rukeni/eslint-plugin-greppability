@@ -1,0 +1,38 @@
+{
+  "name": "eslint-plugin-greppability",
+  "version": "0.1.0",
+  "description": "ESLint plugin for improving code greppability",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "greppability"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.5.3",
+    "@typescript-eslint/parser": "^8.4.0",
+    "@typescript-eslint/rule-tester": "^8.4.0",
+    "@typescript-eslint/utils": "^8.4.0",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "es-toolkit": "^1.17.0"
+  }
+}
