@@ -1,6 +1,12 @@
 # eslint-plugin-greppability
 
+**⚠️ WARNING: This plugin is currently under development and not yet published to npm. It is not ready for production use. ⚠️**
+
 ESLint plugin to improve code greppability and maintain consistent vocabulary.
+
+## Current Status
+
+This plugin is in active development. Features may change, and it is not yet available on npm. Please check back later for updates on its release status.
 
 ## Installation
 
